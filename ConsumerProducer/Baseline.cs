@@ -8,6 +8,8 @@ namespace ConsumerProducer
 
         List<string> ipAddresses { get; set; } = new List<string>();
 
+        List<string> badHosts { get; set; } = new List<string>();
+
         public Baseline()
         {
             // This will get the current WORKING directory (i.e. \bin\Debug)
@@ -43,6 +45,7 @@ namespace ConsumerProducer
                 }
                 catch (Exception)
                 {
+                    badHosts.Add(name);
                     continue;
                 }
 

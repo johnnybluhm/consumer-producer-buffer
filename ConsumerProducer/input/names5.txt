@@ -4,7 +4,6 @@ softonic.com
 nifty.com
 imageshack.us
 cnn.com
-tianya.cn
 mywebsearch.com
 zynga.com
 partypoker.com
@@ -17,4 +16,3 @@ hotfile.com
 qiyi.com
 pconline.com.cn
 odnoklassniki.ru
-jp.msn.com
