@@ -12,6 +12,11 @@ namespace ConsumerProducer
 
         public Baseline()
         {
+
+        }
+
+        public void LoadFiles()
+        {
             // This will get the current WORKING directory (i.e. \bin\Debug)
             string workingDirectory = Environment.CurrentDirectory;
             // or: Directory.GetCurrentDirectory() gives the same result
@@ -29,8 +34,6 @@ namespace ConsumerProducer
                     hostNameAddresses.Add(hostName);
                 }
             }
-
-            ipAddresses = new List<string>();
         }
 
         public void ResolveNames()
