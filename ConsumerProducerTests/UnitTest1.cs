@@ -9,6 +9,7 @@ namespace ConsumerProducerTests
         public void Test1()
         {
             var test = new Baseline();
+            test.ResolveNames();
         }
     }
 }
