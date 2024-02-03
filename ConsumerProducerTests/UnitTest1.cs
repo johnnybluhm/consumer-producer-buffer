@@ -1,3 +1,4 @@
+using ConsumerProducer;
 using Xunit;
 
 namespace ConsumerProducerTests
@@ -7,7 +8,7 @@ namespace ConsumerProducerTests
         [Fact]
         public void Test1()
         {
-
+            var test = new Baseline();
         }
     }
 }
